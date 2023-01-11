@@ -1,19 +1,17 @@
-/\*<!\[CDATA\[\*/ div.rbtoc1673425992537 {padding: 0px;} div.rbtoc1673425992537 ul {list-style: disc;margin-left: 0px;} div.rbtoc1673425992537 li {margin-left: 0px;padding-left: 0px;} /\*\]\]>\*/
-
-*   [Login Page Customizations](#OktaStorefrontCustomizations-LoginPageCustomizations)
-*   [Registration Page Customization](#OktaStorefrontCustomizations-RegistrationPageCustomization)
-*   [Email Customizations](#OktaStorefrontCustomizations-EmailCustomizations)
-*   [Adding custom fields](#OktaStorefrontCustomizations-Addingcustomfields)
-    *   [Phone number Field (field supported by parseSchema event)](#OktaStorefrontCustomizations-PhonenumberField(fieldsupportedbyparseSchemaevent))
-    *   [Reconfirm password support](#OktaStorefrontCustomizations-Reconfirmpasswordsupport)
-    *   [Date field (field NOT supported by parseSchema event)](#OktaStorefrontCustomizations-Datefield(fieldNOTsupportedbyparseSchemaevent))
-*   [Supported Fields by parseSchema](#OktaStorefrontCustomizations-SupportedFieldsbyparseSchema)
-*   [Custom Validations](#OktaStorefrontCustomizations-CustomValidations)
-    *   [Validation on Registration / Signup Page:](#OktaStorefrontCustomizations-ValidationonRegistration/SignupPage:)
-        *   [1\. Using preSubmit callback https://github.com/okta/okta-signin-widget#presubmit Ex:](#OktaStorefrontCustomizations-1.UsingpreSubmitcallbackhttps://github.com/okta/okta-signin-widget#presubmitEx:)
-        *   [2\. Using custom validation on onchange input field event](#OktaStorefrontCustomizations-2.Usingcustomvalidationononchangeinputfieldevent)
-*   [Unsupported Feature by Okta](#OktaStorefrontCustomizations-UnsupportedFeaturebyOkta)
-*   [Sample working code for the customization:](#OktaStorefrontCustomizations-Sampleworkingcodeforthecustomization:)
+*   [Login Page Customizations](#login-page-customizations)
+*   [Registration Page Customization](#registration-page-customization)
+*   [Email Customizations](#email-customizations)
+*   [Adding custom fields](#adding-custom-fields)
+    *   [Phone number Field (field supported by parseSchema event)](#phone-number-field-field-supported-by-parseschema-event)
+    *   [Reconfirm password support](#reconfirm-password-support)
+    *   [Date field (field NOT supported by parseSchema event)](#date-field-field-not-supported-by-parseschema-event)
+*   [Supported Fields by parseSchema](#supported-fields-by-parseschema)
+*   [Custom Validations](#custom-validations)
+    *   [Validation on Registration / Signup Page:](#validation-on-registration--signup-page)
+        *   [1\. Using preSubmit callback](#1-using-presubmit-callback-httpsgithubcomoktaokta-signin-widgetpresubmit)
+        *   [2\. Using custom validation on onchange input field event](#2-using-custom-validation-on-onchange-input-field-event)
+*   [Unsupported Feature by Okta](#unsupported-feature-by-okta)
+*   [Sample working code for the customization:](#sample-working-code-for-the-customization)
 
 Any cutomizations done in Sandbox, please document and create a ticket with Identity team. Identity team will take care of applying these changes to production. Only Identity team will have production access.
 
